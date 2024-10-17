@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-df=pd.read_csv("C:\Users\Aditya\Downloads\laptop_data.csv")
+df=pd.read_csv("/content/drive/MyDrive/ADVERK /Datasets/laptop_data.csv")
 df
 
 df=df.iloc[:,1:]
