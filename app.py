@@ -1,3 +1,7 @@
+import pickle
+pickle.dump(df,open('df.pkl','wb'))
+pickle.dump(pipe,open('pipe.pkl','wb'))
+
 import streamlit as st
 st.title("Laptop Price Predictor")
 st.text("This app is designed to predict the laptop price based on the configuration")
